@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "title": "Aftermath Technologies - Où les Idées Deviennent Réalité Numérique",
+    "description": "De la précision mathématique à l'innovation technologique. Nous créons des solutions logicielles exceptionnelles qui transforment les entreprises et dépassent les attentes. Développement full-stack, maîtrise architecturale et excellence DevOps.",
+    "keywords": "conseil IT, développement d'applications, DevOps, révision d'architecture, développement logiciel, solutions technologiques, transformation numérique"
+  },
+  "company": {
+    "name": "Aftermath Technologies",
+    "tagline": "Où les Mathématiques Rencontrent l'Innovation",
+    "story": {
+      "title": "Le Voyage",
+      "content": "Toute grande histoire commence par une question. La mienne était : 'Que vient après les mathématiques ?' Après avoir obtenu ma Maîtrise en Traitement Numérique du Signal et passé des années dans le monde des chiffres, équations et algorithmes, j'ai découvert quelque chose de magique—l'art de transformer des concepts mathématiques abstraits en expériences numériques tangibles. De la construction de moteurs de jeu 2D à l'architecture de solutions FinTech évolutives, des systèmes de reconnaissance vocale à l'infrastructure d'apprentissage automatique, mon parcours a été de trouver l'ordre dans le chaos et de découvrir la logique dans les systèmes complexes. Aftermath Technologies représente non seulement ce qui vient après les mathématiques, mais comment la pensée mathématique se transforme en innovation technologique qui change le monde."
+    }
+  },
+  "services": {
+    "title": "Ce Que Nous Créons",
+    "subtitle": "Solutions Numériques Qui Font la Différence",
+    "items": [
+      {
+        "title": "Développement d'Applications Complet",
+        "description": "Des idées brillantes aux produits finis. Nous donnons vie à votre vision avec un code propre, des interfaces époustouflantes et une fonctionnalité à toute épreuve qui évolue magnifiquement."
+      },
+      {
+        "title": "Révision d'Architecture d'Applications",
+        "description": "Comme un architecte maître examinant des plans, nous analysons vos systèmes existants pour révéler un potentiel caché, optimiser les performances et préparer l'avenir de votre fondation technologique."
+      },
+      {
+        "title": "Excellence DevOps",
+        "description": "Nous orchestrons des déploiements transparents comme des chefs d'orchestre dirigeant une symphonie—automatisation, surveillance et amélioration continue qui maintiennent vos systèmes fonctionnant parfaitement 24h/24."
+      }
+    ]
+  },
+  "clients": {
+    "title": "Histoires de Succès",
+    "subtitle": "Entreprises Que Nous Avons Élevées",
+    "note": "Des rêves de startup aux leaders de l'industrie—nous avons été les architectes de leur transformation numérique"
+  },
+  "about": {
+    "title": "L'Esprit Derrière la Magie",
+    "content": "Je suis Samuel Besong, Ingénieur Logiciel Principal qui prospère dans les activités stimulantes pour le cerveau et cherche constamment à trouver l'ordre dans le chaos. Avec une Maîtrise en Traitement Numérique du Signal et un Baccalauréat en Mathématiques, j'ai passé plus de 8 ans à transformer des problèmes complexes en solutions élégantes. De la construction d'architectures logicielles évolutives chez VORI Health à la création de solutions FinTech pour Groupe B&T, j'ai guidé des équipes et dirigé des projets qui ont mené des entreprises des rêves de startup aux leaders de l'industrie. Mon expertise couvre toute la pile technologique—de TypeScript et Python à AWS et Machine Learning—mais ce qui me motive vraiment, c'est l'art de transformer des concepts mathématiques abstraits en expériences numériques tangibles que les entreprises adorent et que les utilisateurs chérissent.",
+    "linkedinText": "Connectons-nous et Créons Quelque Chose d'Extraordinaire"
+  },
+  "contact": {
+    "title": "Prêt à Construire Quelque Chose d'Extraordinaire ?",
+    "subtitle": "Transformons Votre Vision en Réalité Numérique",
+    "email": "cto@aftermathtechnologies.com",
+    "phone": "+1 514 706 7120",
+    "message": "Chaque projet révolutionnaire commence par une conversation. Discutons de comment nous pouvons transformer vos idées en chefs-d'œuvre numériques qui dépassent les attentes."
+  },
+  "navigation": {
+    "home": "Accueil",
+    "services": "Services",
+    "clients": "Clients",
+    "about": "À Propos",
+    "contact": "Contact"
+  },
+  "language": {
+    "switch": "Changer de Langue",
+    "english": "English",
+    "french": "Français"
+  }
+}

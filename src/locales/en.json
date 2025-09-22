@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "title": "Aftermath Technologies - Where Ideas Become Digital Reality",
+    "description": "From mathematical precision to technological innovation. We craft exceptional software solutions that transform businesses and exceed expectations. Full-stack development, architecture mastery, and DevOps excellence.",
+    "keywords": "IT consultancy, application development, DevOps, architecture review, software development, technology solutions, digital transformation"
+  },
+  "company": {
+    "name": "Aftermath Technologies",
+    "tagline": "Where Mathematics Meets Innovation",
+    "story": {
+      "title": "The Journey",
+      "content": "Every great story begins with a question. Mine was: 'What comes after mathematics?' After earning my Master's in Digital Signal Processing and spending years in the world of numbers, equations, and algorithms, I discovered something magical—the art of turning abstract mathematical concepts into tangible digital experiences. From building 2D game engines to architecting scalable FinTech solutions, from voice recognition systems to machine learning infrastructure, my journey has been about finding order in chaos and uncovering the logic within complex systems. Aftermath Technologies represents not just what comes after mathematics, but how mathematical thinking transforms into technological innovation that changes the world."
+    }
+  },
+  "services": {
+    "title": "What We Craft",
+    "subtitle": "Digital Solutions That Make a Difference",
+    "items": [
+      {
+        "title": "Full Application Development",
+        "description": "From brilliant ideas to polished products. We breathe life into your vision with clean code, stunning interfaces, and bulletproof functionality that scales beautifully."
+      },
+      {
+        "title": "App Architecture Review",
+        "description": "Like a master architect examining blueprints, we analyze your existing systems to uncover hidden potential, optimize performance, and future-proof your technology foundation."
+      },
+      {
+        "title": "DevOps Excellence",
+        "description": "We orchestrate seamless deployments like conductors leading a symphony—automation, monitoring, and continuous improvement that keeps your systems running smoothly 24/7."
+      }
+    ]
+  },
+  "clients": {
+    "title": "Success Stories",
+    "subtitle": "Companies We've Elevated",
+    "note": "From startup dreams to industry leaders—we've been the architects of their digital transformation"
+  },
+  "about": {
+    "title": "The Mind Behind the Magic",
+    "content": "I'm Samuel Besong, a Principal Software Engineer who thrives on brain-challenging activities and constantly seeks to find order in chaos. With a Master's in Digital Signal Processing and a Bachelor's in Mathematics, I've spent over 8 years transforming complex problems into elegant solutions. From building scalable software architectures at VORI Health to crafting FinTech solutions for Groupe B&T, I've guided teams and led projects that have taken companies from startup dreams to industry leaders. My expertise spans the full technology stack—from TypeScript and Python to AWS and Machine Learning—but what truly drives me is the art of turning abstract mathematical concepts into tangible digital experiences that businesses love and users adore.",
+    "linkedinText": "Let's Connect & Create Something Amazing"
+  },
+  "contact": {
+    "title": "Ready to Build Something Extraordinary?",
+    "subtitle": "Let's Turn Your Vision Into Digital Reality",
+    "email": "cto@aftermathtechnologies.com",
+    "phone": "+1 514 706 7120",
+    "message": "Every groundbreaking project starts with a conversation. Let's discuss how we can transform your ideas into digital masterpieces that exceed expectations."
+  },
+  "navigation": {
+    "home": "Home",
+    "services": "Services",
+    "clients": "Clients",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "language": {
+    "switch": "Switch Language",
+    "english": "English",
+    "french": "Français"
+  }
+}
