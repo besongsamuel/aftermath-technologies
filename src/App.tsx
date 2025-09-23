@@ -1,6 +1,7 @@
 import { Email, LinkedIn, Phone } from "@mui/icons-material";
 import {
   AppBar,
+  Avatar,
   Box,
   Button,
   Card,
@@ -54,9 +55,33 @@ function App() {
           </Toolbar>
         </AppBar>
 
-        <Box component="main" sx={{ pt: 8 }}>
+        <Box component="main" sx={{ pt: { xs: 6, sm: 7, md: 8 } }}>
           {/* Hero Section */}
-          <Container maxWidth="md" sx={{ py: 16, textAlign: "center" }}>
+          <Container
+            maxWidth="md"
+            sx={{ py: { xs: 8, sm: 12, md: 16 }, textAlign: "center" }}
+          >
+            <Avatar
+              src="/me.JPG"
+              alt="Samuel Besong"
+              sx={{
+                width: { xs: 200, sm: 280, md: 350 },
+                height: { xs: 200, sm: 280, md: 350 },
+                mx: "auto",
+                mb: 4,
+                border: { xs: "4px solid", sm: "6px solid", md: "8px solid" },
+                borderColor: "primary.main",
+                boxShadow: {
+                  xs: "0 8px 24px rgba(0, 0, 0, 0.12)",
+                  sm: "0 12px 32px rgba(0, 0, 0, 0.15)",
+                  md: "0 16px 48px rgba(0, 0, 0, 0.18)",
+                },
+                "& img": {
+                  objectPosition: "center 35%",
+                  objectFit: "cover",
+                },
+              }}
+            />
             <Typography variant="h1" component="h1" gutterBottom sx={{ mb: 3 }}>
               {t("company.name")}
             </Typography>
@@ -98,7 +123,7 @@ function App() {
           </Box>
 
           {/* Services Section */}
-          <Container maxWidth="lg" sx={{ py: 12 }}>
+          <Container maxWidth="lg" sx={{ py: { xs: 6, sm: 8, md: 12 } }}>
             <Typography
               variant="h2"
               component="h2"
@@ -112,7 +137,12 @@ function App() {
               variant="body1"
               color="text.secondary"
               textAlign="center"
-              sx={{ mb: 8, fontSize: "1.25rem", maxWidth: 600, mx: "auto" }}
+              sx={{
+                mb: { xs: 4, sm: 6, md: 8 },
+                fontSize: { xs: "1rem", sm: "1.125rem", md: "1.25rem" },
+                maxWidth: 600,
+                mx: "auto",
+              }}
             >
               {t("services.subtitle")}
             </Typography>
@@ -120,7 +150,7 @@ function App() {
               {t("services.items", { returnObjects: true }).map(
                 (service: any, index: number) => (
                   <Card key={index} elevation={0} sx={{ p: 0 }}>
-                    <CardContent sx={{ p: 6 }}>
+                    <CardContent sx={{ p: { xs: 3, sm: 4, md: 6 } }}>
                       <Typography
                         variant="h4"
                         component="h3"
@@ -144,7 +174,7 @@ function App() {
           </Container>
 
           {/* Clients Section */}
-          <Box sx={{ bgcolor: "grey.50", py: 12 }}>
+          <Box sx={{ bgcolor: "grey.50", py: { xs: 6, sm: 8, md: 12 } }}>
             <Container maxWidth="md">
               <Typography
                 variant="h2"
@@ -159,7 +189,10 @@ function App() {
                 variant="body1"
                 color="text.secondary"
                 textAlign="center"
-                sx={{ mb: 4, fontSize: "1.25rem" }}
+                sx={{
+                  mb: 4,
+                  fontSize: { xs: "1rem", sm: "1.125rem", md: "1.25rem" },
+                }}
               >
                 {t("clients.subtitle")}
               </Typography>
@@ -168,7 +201,7 @@ function App() {
                 color="text.secondary"
                 textAlign="center"
                 sx={{
-                  mb: 8,
+                  mb: { xs: 4, sm: 6, md: 8 },
                   fontSize: "1rem",
                   fontStyle: "italic",
                   opacity: 0.8,
@@ -177,8 +210,8 @@ function App() {
                 {t("clients.note")}
               </Typography>
               <Stack
-                direction="row"
-                spacing={4}
+                direction={{ xs: "column", sm: "row" }}
+                spacing={{ xs: 2, sm: 4 }}
                 justifyContent="center"
                 flexWrap="wrap"
                 sx={{ gap: 3 }}
@@ -189,8 +222,19 @@ function App() {
                   href="https://www.rendasua.com"
                   target="_blank"
                   rel="noopener noreferrer"
-                  sx={{ minWidth: 140, py: 1.5, fontSize: "1rem" }}
+                  sx={{
+                    minWidth: 140,
+                    py: 2,
+                    fontSize: "1rem",
+                    flexDirection: "column",
+                    gap: 1,
+                  }}
                 >
+                  <img
+                    src="https://www.rendasua.com/rendasua.21759575615cbb470800734bda375a2f.svg"
+                    alt="RendaSua"
+                    style={{ width: 32, height: 32 }}
+                  />
                   RendaSua
                 </Button>
                 <Button
@@ -199,8 +243,19 @@ function App() {
                   href="https://www.groupe-bt.com"
                   target="_blank"
                   rel="noopener noreferrer"
-                  sx={{ minWidth: 140, py: 1.5, fontSize: "1rem" }}
+                  sx={{
+                    minWidth: 140,
+                    py: 2,
+                    fontSize: "1rem",
+                    flexDirection: "column",
+                    gap: 1,
+                  }}
                 >
+                  <img
+                    src="https://biz.groupe-bt.com/assets/bnt-9e9a09f37ec0326dda99.png"
+                    alt="Groupe B&T"
+                    style={{ width: 32, height: 32 }}
+                  />
                   Groupe B&T
                 </Button>
                 <Button
@@ -209,8 +264,19 @@ function App() {
                   href="https://www.mokumbi.com"
                   target="_blank"
                   rel="noopener noreferrer"
-                  sx={{ minWidth: 140, py: 1.5, fontSize: "1rem" }}
+                  sx={{
+                    minWidth: 140,
+                    py: 2,
+                    fontSize: "1rem",
+                    flexDirection: "column",
+                    gap: 1,
+                  }}
                 >
+                  <img
+                    src="https://www.mokumbi.com/site-logo-1200x1200.png"
+                    alt="Mokumbi"
+                    style={{ width: 32, height: 32 }}
+                  />
                   Mokumbi
                 </Button>
               </Stack>
@@ -218,7 +284,7 @@ function App() {
           </Box>
 
           {/* About Section */}
-          <Container maxWidth="md" sx={{ py: 12 }}>
+          <Container maxWidth="md" sx={{ py: { xs: 6, sm: 8, md: 12 } }}>
             <Typography
               variant="h2"
               component="h2"
@@ -231,10 +297,10 @@ function App() {
             <Typography
               variant="body1"
               sx={{
-                fontSize: "1.25rem",
+                fontSize: { xs: "1rem", sm: "1.125rem", md: "1.25rem" },
                 lineHeight: 1.8,
                 textAlign: "center",
-                mb: 6,
+                mb: { xs: 4, sm: 5, md: 6 },
                 maxWidth: 800,
                 mx: "auto",
               }}
@@ -258,7 +324,7 @@ function App() {
           </Container>
 
           {/* Contact Section */}
-          <Box sx={{ bgcolor: "grey.50", py: 12 }}>
+          <Box sx={{ bgcolor: "grey.50", py: { xs: 6, sm: 8, md: 12 } }}>
             <Container maxWidth="md">
               <Typography
                 variant="h2"
@@ -273,11 +339,14 @@ function App() {
                 variant="body1"
                 color="text.secondary"
                 textAlign="center"
-                sx={{ mb: 8, fontSize: "1.25rem" }}
+                sx={{
+                  mb: { xs: 4, sm: 6, md: 8 },
+                  fontSize: { xs: "1rem", sm: "1.125rem", md: "1.25rem" },
+                }}
               >
                 {t("contact.subtitle")}
               </Typography>
-              <Stack spacing={6} alignItems="center">
+              <Stack spacing={{ xs: 4, sm: 5, md: 6 }} alignItems="center">
                 <Stack
                   direction="row"
                   spacing={4}
