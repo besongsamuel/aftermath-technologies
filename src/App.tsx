@@ -233,7 +233,7 @@ function App() {
                   <img
                     src="https://www.rendasua.com/rendasua.21759575615cbb470800734bda375a2f.svg"
                     alt="RendaSua"
-                    style={{ width: 32, height: 32 }}
+                    style={{ width: "100%", height: "auto", maxHeight: 60 }}
                   />
                   RendaSua
                 </Button>
@@ -254,7 +254,7 @@ function App() {
                   <img
                     src="https://biz.groupe-bt.com/assets/bnt-9e9a09f37ec0326dda99.png"
                     alt="Groupe B&T"
-                    style={{ width: 32, height: 32 }}
+                    style={{ width: "100%", height: "auto", maxHeight: 60 }}
                   />
                   Groupe B&T
                 </Button>
@@ -275,9 +275,30 @@ function App() {
                   <img
                     src="https://www.mokumbi.com/site-logo-1200x1200.png"
                     alt="Mokumbi"
-                    style={{ width: 32, height: 32 }}
+                    style={{ width: "100%", height: "auto", maxHeight: 60 }}
                   />
                   Mokumbi
+                </Button>
+                <Button
+                  variant="outlined"
+                  component={Link}
+                  href="https://www.boresha.ca"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  sx={{
+                    minWidth: 140,
+                    py: 2,
+                    fontSize: "1rem",
+                    flexDirection: "column",
+                    gap: 1,
+                  }}
+                >
+                  <img
+                    src="https://www.boresha.ca/Logo%20-%20Boresha-2.png"
+                    alt="Boresha"
+                    style={{ width: "100%", height: "auto", maxHeight: 60 }}
+                  />
+                  Boresha
                 </Button>
               </Stack>
             </Container>

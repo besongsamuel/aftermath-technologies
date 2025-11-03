@@ -23,6 +23,7 @@ const LanguageSwitcher: React.FC = () => {
         size="small"
         sx={{
           backgroundColor: "transparent",
+          gap: 1,
           "& .MuiToggleButton-root": {
             border: "1px solid #E0E0E0",
             color: "#666666",
